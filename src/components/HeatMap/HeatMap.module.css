@@ -1,0 +1,28 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+.cell {
+  width: 11px;
+  height: 11px;
+  border-radius: 2px;
+  cursor: default;
+}
+
+.level0 {
+  background: var(--border);
+}
+
+.level1 {
+  background: #5c1a12;
+}
+
+.level2 {
+  background: #922b21;
+}
+
+.level3 {
+  background: var(--accent);
+}

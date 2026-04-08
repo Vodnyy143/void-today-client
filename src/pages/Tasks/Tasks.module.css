@@ -1,0 +1,50 @@
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.search {
+  max-width: 240px;
+}
+
+.tabs {
+  display: flex;
+  gap: 4px;
+}
+
+.tabActive {
+  background: var(--bg-hover);
+  border-color: var(--border-hover);
+  color: var(--text-primary);
+}
+
+.catSelect {
+  max-width: 160px;
+}
+
+.spinnerWrap {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.group {
+  margin-bottom: 24px;
+}
+
+.groupLabel {
+  font-size: 11px;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 10px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
